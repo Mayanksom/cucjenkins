@@ -1,0 +1,16 @@
+Feature: login to demowebshop
+  login to demo web shop
+
+  Scenario Outline: login to demo webshop # C:/Users/s.srinadhuni/eclipse-workspace/Selenium_Nextgen/cucjenkins/features/logintest.feature:4
+    Given I launch the demo web shop page
+    When I provide valid "<email>" and "<password>"
+    And click on login button
+    Then I shall be able to login successfully
+
+    Examples: 
+
+  Scenario Outline: login to demo webshop                        # C:/Users/s.srinadhuni/eclipse-workspace/Selenium_Nextgen/cucjenkins/features/logintest.feature:12
+    Given I launch the demo web shop page                        # loginstepdefs.i_launch_the_demo_web_shop_page()
+    When I provide valid "karthik456@gmail.com" and "karthik456" # loginstepdefs.i_provide_valid_and(String,String)
+    And click on login button                                    # loginstepdefs.click_on_login_button()
+    Then I shall be able to login successfully                   # loginstepdefs.i_shall_be_able_to_login_successfully()

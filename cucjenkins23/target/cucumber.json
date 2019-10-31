@@ -1,0 +1,81 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 12,
+        "name": "login to demo webshop",
+        "description": "",
+        "id": "login-to-demowebshop;login-to-demo-webshop;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14606523100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I launch the demo web shop page",
+            "match": {
+              "location": "loginstepdefs.i_launch_the_demo_web_shop_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 347722900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I provide valid \"karthik456@gmail.com\" and \"karthik456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"karthik456@gmail.com\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"karthik456\"",
+                  "offset": 43
+                }
+              ],
+              "location": "loginstepdefs.i_provide_valid_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3950549800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click on login button",
+            "match": {
+              "location": "loginstepdefs.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20819700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I shall be able to login successfully",
+            "match": {
+              "location": "loginstepdefs.i_shall_be_able_to_login_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "login to demowebshop",
+    "description": "  login to demo web shop",
+    "id": "login-to-demowebshop",
+    "keyword": "Feature",
+    "uri": "C:/Users/Training_h2a.06.17/Downloads/cucjenkins23/cucjenkins23/features/logintest.feature",
+    "tags": []
+  }
+]

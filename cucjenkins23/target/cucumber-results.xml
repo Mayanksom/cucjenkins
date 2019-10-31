@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="14.339874">
+<testcase classname="login to demowebshop" name="login to demo webshop" time="14.339874">
+<system-out><![CDATA[Given I launch the demo web shop page.......................................passed
+When I provide valid "karthik456@gmail.com" and "karthik456"................passed
+And click on login button...................................................passed
+Then I shall be able to login successfully..................................passed
+]]></system-out>
+</testcase>
+</testsuite>
